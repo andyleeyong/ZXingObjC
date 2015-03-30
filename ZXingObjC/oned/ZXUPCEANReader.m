@@ -43,8 +43,7 @@ const int ZX_UPC_EAN_MIDDLE_PATTERN[ZX_UPC_EAN_MIDDLE_PATTERN_LEN] = {1, 1, 1, 1
 /**
  * "Odd", or "L" patterns used to encode UPC/EAN digits.
  */
-const int ZX_UPC_EAN_L_PATTERNS_LEN = 10;
-const int ZX_UPC_EAN_L_PATTERNS_SUB_LEN = 4;
+
 const int ZX_UPC_EAN_L_PATTERNS[ZX_UPC_EAN_L_PATTERNS_LEN][ZX_UPC_EAN_L_PATTERNS_SUB_LEN] = {
   {3, 2, 1, 1}, // 0
   {2, 2, 2, 1}, // 1
@@ -61,8 +60,7 @@ const int ZX_UPC_EAN_L_PATTERNS[ZX_UPC_EAN_L_PATTERNS_LEN][ZX_UPC_EAN_L_PATTERNS
 /**
  * As above but also including the "even", or "G" patterns used to encode UPC/EAN digits.
  */
-const int ZX_UPC_EAN_L_AND_G_PATTERNS_LEN = 20;
-const int ZX_UPC_EAN_L_AND_G_PATTERNS_SUB_LEN = 4;
+
 const int ZX_UPC_EAN_L_AND_G_PATTERNS[ZX_UPC_EAN_L_AND_G_PATTERNS_LEN][ZX_UPC_EAN_L_AND_G_PATTERNS_SUB_LEN] = {
   {3, 2, 1, 1}, // 0
   {2, 2, 2, 1}, // 1

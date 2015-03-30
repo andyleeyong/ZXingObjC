@@ -26,11 +26,11 @@ extern const int ZX_UPC_EAN_START_END_PATTERN_LEN;
 extern const int ZX_UPC_EAN_START_END_PATTERN[];
 extern const int ZX_UPC_EAN_MIDDLE_PATTERN_LEN;
 extern const int ZX_UPC_EAN_MIDDLE_PATTERN[];
-extern const int ZX_UPC_EAN_L_PATTERNS_LEN;
-extern const int ZX_UPC_EAN_L_PATTERNS_SUB_LEN;
+#define ZX_UPC_EAN_L_PATTERNS_LEN 10
+#define ZX_UPC_EAN_L_PATTERNS_SUB_LEN 4
 extern const int ZX_UPC_EAN_L_PATTERNS[][4];
-extern const int ZX_UPC_EAN_L_AND_G_PATTERNS_LEN;
-extern const int ZX_UPC_EAN_L_AND_G_PATTERNS_SUB_LEN;
+#define ZX_UPC_EAN_L_AND_G_PATTERNS_LEN 20
+#define ZX_UPC_EAN_L_AND_G_PATTERNS_SUB_LEN 4
 extern const int ZX_UPC_EAN_L_AND_G_PATTERNS[][4];
 
 @class ZXDecodeHints, ZXEANManufacturerOrgSupport, ZXIntArray, ZXResult, ZXUPCEANExtensionSupport;
